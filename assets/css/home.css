@@ -1,0 +1,142 @@
+body{
+  /* background-color: #3d3d3d; */
+  background-color: #33343f;
+}
+
+
+h1{
+  font-family: sourcesans-bold;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  margin: 4%;
+}
+.bestseller{
+  max-width: 768px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-bottom: 5rem;
+}
+.bestseller img{
+  width: 100%;
+}
+
+.info{
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info img{
+  width: 100%;
+}
+
+.info h3{
+  font-size: 1.50rem;
+  font-family: courgette-cursive;
+  color: #f9bf0f;
+}
+
+.info h2{
+  font-family: sourcesans-bold;
+  font-size: 1.75rem;
+  color: white;
+}
+
+.info p{
+  font-family: crimsontext;
+  font-size: 1.25rem;
+  color:white;
+}
+.txtbox{
+  padding: 4%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.location{
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.location > img{
+  width: 100%;
+}
+
+.location-textbox > h1{
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+.location-textbox > h2{
+  color: #f9bf0f;
+  font-family: sourcesans-semibolditalic;
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.location-textbox > p{
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+  font-family: crimson-text;
+}
+
+@media (min-width: 426px){
+  .bs-title{
+    font-size: 3rem;
+  }
+  .bestseller{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .info h3{
+    font-size: 1.75rem;
+  }
+  
+  .info h2{
+    font-size: 2rem;
+  }
+  
+  .info p{
+
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 969px) {
+  .bestseller{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .info{
+    position: relative;
+    margin-bottom: 5rem;
+  }
+  .info img{
+    width: 80%;
+  }
+  .info-2 img{
+    margin-left: auto;
+  }
+  .txtbox{
+    position: absolute;
+    width: 16rem;
+  }
+  .info-1-textbox{
+    top: 5%;
+    right: 0;
+  }
+  .info-2-textbox{
+    bottom: 5%;
+    left: 0;
+  }
+
+  .location{
+    position: relative;
+    margin-bottom: 5rem;
+  }
+  .location-textbox{
+    position: relative;
+    width: 92%;
+  }
+}
+

@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: #33343f;
+}
+
+a,
+a:visited{
+  text-decoration: none;
+}
+  
+
+
+h1{
+  margin: 0;
+  font-family: sourcesans-bold;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.h1-branch{
+  background-color: white;
+  color: #33343f;
+  padding: 3% 0;
+}
+
+.branch_map img{
+    width: 100%;
+}
+
+.txtbox {
+  margin: 0 auto;
+  width: 88%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1.9rem;
+}
+
+.txtbox h1{
+  color: yellow;
+}
+
+.txtbox p {
+  margin: 0;
+  font-family: crimsontext;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.txtbox h2 {
+  margin: 0;
+  font-family: sourcesans-bold;
+  color: white;
+}
+
+.location{
+  margin: 0 auto;
+  width: 82%;
+}
+  
+.location-textbox > h1{
+  margin: 3.6%;
+  font-size: 2.3rem;
+}
+.location-textbox > h2{
+  margin: 3.6%;
+  font-size: 1.9rem;
+  text-align: center;
+}
+.location-textbox > p{
+  margin: 3.6%;
+  text-align: center;
+}
+
+footer{
+  margin-top: 10%;
+}
+  
+
+
+
+

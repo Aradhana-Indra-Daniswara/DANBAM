@@ -1,0 +1,309 @@
+
+body {
+  background-color: #33343f;
+  margin: 0;
+}
+.bannerext{
+  display: none;
+}
+::placeholder, select{
+  font-family: opensans-light;
+  color: white;
+  font-size: 0.6rem;
+}
+
+h1{
+  font-family: sourcesans-bold;
+  color:white;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 3%;
+}
+
+.Business{
+  margin: 10% auto;
+  width: 100%;
+}
+
+.Business img{
+  width: 100%;
+}
+
+.card-header{
+  background-color: #15161e;
+}
+
+.card-content{
+  padding: 5% 3%;
+  text-align: center;
+  background-color: white;
+}
+
+.card-content h2{
+  font-family: opensans-reg;
+  font-size: 1.25rem;
+}
+.card-content p{
+  font-family: opensans-light;
+}
+b{
+  font-family: opensans-bold;
+}
+
+.card-content h3{
+  font-family: cormorantgaramond-reg;
+  font-size: 1.4rem;
+  margin-bottom: 3%;
+}
+.card-content h4{
+  font-family: opensans-light;
+}
+
+.top, .mid1, .mid2, .bottom{
+  margin-bottom: 5%;
+}
+
+.form-wrapper{
+  width: 80%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+input, textarea, select{
+  color: white;
+  width: 100%;
+  margin-bottom: 3%;
+  border: none;
+  background-color: #202027;
+  padding: 0;
+  font-family: opensans-reg;
+}
+input, select{
+  height: 2rem;
+}
+
+.checkpart{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.check{
+  border: none;
+  margin: 0;
+  margin-right: 5%;
+  width: 8%;
+}
+label{
+  color:white;
+  font-family: opensans-light;
+  font-size: 0.5rem;
+}
+
+option{
+  font-size: 1rem;
+}
+button{
+  display: block;
+}
+
+
+.Validate{
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  color: black;
+  font-family: sourcesans-bolditalic;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: .25rem;
+  width: 100%;
+}
+
+.errmsg{
+  display: none;
+  color:red;
+  font-family: opensans-light;
+  font-size: 0.6rem;
+}
+
+@media (min-width: 426px){
+  ::placeholder, select{
+    font-size: 0.9rem;
+  }
+  input, select{
+    height: 3rem;
+    font-size: 0.9rem;
+  }
+  textarea{
+    height: 6rem;
+    font-size: 0.9rem;
+  }
+
+  label{
+    font-size: 0.9rem;
+  }
+
+  .check{
+    width: 12%;
+  }
+  .errmsg{
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 769px){
+  .card-content h2{
+    font-size: 2.5rem;
+  }
+  .card-content p{
+    font-size: 1.8rem;
+  }
+  
+  .card-content h3{
+
+    font-size: 2.3rem;
+    margin-bottom: 1%;
+  }
+  .card-content h4{
+    font-size: 1.8rem;
+  }
+  .card-content h5{
+    font-size: 2.1rem;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
+
+  ::placeholder, select{
+    font-size: 1.5rem;
+  }
+  input, select{
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+  textarea{
+    height: 6rem;
+    font-size: 1.5rem;
+  }
+
+  label{
+    font-size: 1.4rem;
+  }
+
+  .check{
+    width: 12%;
+  }
+
+  .Validate{
+    font-size: 2.6rem;
+    height: 4rem;
+  }
+
+  .errmsg{
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 969px){
+  .bannerext{
+    display: block;
+  }
+  .card-header{
+    display: none;
+  }
+
+  .Business{
+    position: relative;
+  }
+  .card{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 33%;
+  }
+
+  .card-header{
+    background-color: rgba(21, 22, 30, 0.8);
+  }
+  
+  .card-content{
+    height: 91.7%;
+    padding: 7% 5%;
+    text-align: center;
+    background-color: rgba(255,255, 255, 0.8);
+  }
+
+
+  .card-content h2{
+    font-size: 2rem;
+  }
+  .card-content p{
+    font-size: 1.4rem;
+  }
+  
+  .card-content h3{
+    font-size: 2rem;
+  }
+  .card-content h4{
+    font-size: 1.3rem;
+  }
+  .card-content h5{
+    font-size: 1.6rem;
+  }
+
+  .form-wrapper{
+    width: 50%;
+  }
+  
+  
+  ::placeholder, select{
+    font-size: 1.7rem;
+  }
+  input, select{
+    height: 6rem;
+    font-size: 1.7rem;
+  }
+  textarea{
+    height: 10rem;
+    font-size: 1.7rem;
+  }
+
+  label{
+    font-size: 1.4rem;
+  }
+
+  .check{
+    width: 7%;
+  }
+
+  .Validate{
+    font-size: 2.8rem;
+    height: 5rem;
+  }
+
+  .errmsg{
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 1400px){
+  .card-content h2{
+    font-size: 2.5rem;
+  }
+  .card-content p{
+    font-size: 1.8rem;
+  }
+  
+  .card-content h3{
+    font-size: 2.2rem;
+  }
+  .card-content h3{
+    margin-bottom: 5%;
+  }
+  .top, .mid1, .mid2, .bottom{
+    margin-bottom: 8%;
+  }
+}

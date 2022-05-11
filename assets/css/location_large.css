@@ -1,0 +1,49 @@
+@media only screen and (min-width: 969px) {
+
+  header{
+    background-color:rgba(0, 0, 0, 0.4);
+  }
+
+
+
+  .h1-branch{
+    font-size: 4rem;
+  }
+
+  .txtbox {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 95%;
+    padding: 2.5%;
+    display: grid;
+    margin-left: 0;
+
+  }
+
+  .txtbox h2 {
+    font-size: 3.5rem;
+  }
+
+  .txtbox p {
+    font-size: 1.45rem;
+  }
+
+  .location{
+    margin-bottom: 8rem;
+    width: 95%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .location-textbox > h1{
+    font-size: 2.8rem;
+  }
+  .location-textbox > h2{
+    font-size: 2.4rem;
+  }
+  .location-textbox > p{
+    text-align: center;
+  }
+  
+
+}

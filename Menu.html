@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DanBam Menu</title>
+  <link rel="stylesheet" href="assets/css/fontsource.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/main.js"></script>
+
+
+</head>
+
+<body>
+  <section class="main-banner">
+    <header>
+      <div class="logo-wrapper">
+        <a href="Home.html">
+          <img src="assets/images/Logo-Footer.png" id="minilogo" alt="">
+          <img src="assets/images/Logo-Header.png" id="biglogo" alt="">
+        </a>
+      </div>
+      <div class="sandwich-wrapper">
+        <img src="assets/images/Menu_White.svg" alt="">
+      </div>
+      <div class="navbar-wrapper">
+
+        <div class="menu-button button clickable" onclick="directMenu()">
+          <p>MENU</p>
+        </div>
+
+
+        <div class="aboutus-button button clickable">
+          <p>ABOUT US</p>
+          <div class="aboutus-DDL">
+            <div class="clickable" onclick="directOurHistory()">
+              <p>OUR HISTORY</p>
+            </div>
+            <div class="clickable" onclick="directGallery()">
+              <p>GALLERY</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-button button clickable" onclick="directLocation()">
+          <p>LOCATION</p>
+        </div>
+
+        <div class="contactus-button button clickable" onclick="directContactUs()">
+          <p>CONTACT</p>
+        </div>
+
+      </div>
+    </header>
+    <!-- <img src="assets/images/DanBamMenu.png" alt=""> -->
+    <div class="sliderContainer">
+      <div class="mySlides">
+        <div class="numTxt">1 / 3</div>
+        <img class="slide" src="assets/images/slider1.jpg" alt="">
+      </div>
+      <div class="mySlides">
+        <div class="numTxt">2 / 3</div>
+        <img class="slide" src="assets/images/slider2.jpg" alt="">
+      </div>
+      <div class="mySlides">
+        <div class="numTxt">3 / 3</div>
+        <img class="slide" src="assets/images/slider3.jpg" alt="">
+      </div>
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+    </div>
+  </section>
+
+
+  <!-- SLIDER IMAGE -->
+  <!--  -->
+
+  <section class="content">
+    <div class="content-wrapper">
+      <div class="header-wrapper">
+        <h1>FOODS</h1>
+
+      </div>
+      <div class="quantity-placeholder">
+        <div class="quantity">
+          <h1>16 ITEMS</h1>
+        </div>
+      </div>
+    </div>
+
+    <section class="food card-wrapper">
+      <div class="card">
+        <img src="assets/images/Menu/Food/Bibimbap.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Food/Ddukbokki.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Food/Hobakjuk.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Food/Japchae.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Food/Kimbap.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Food/Kimchi.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Food/Naengmyeon.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Food/Seolleongtang.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Food/Soondae.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Food/SundubuJjigae.jpg" alt="">
+      </div>
+    </section>
+
+    <div class="header-wrapper">
+      <h1>BEVERAGES</h1>
+    </div>
+    <section class="beverages card-wrapper">
+      <div class="card">
+        <img src="assets/images/Menu/Beverages/Banana Milk.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Beverages/Barley Tea.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Beverages/Dalgona.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Beverages/Honey Citron.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Beverages/Omija Tea.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Beverages/Soju.jpg" alt="">
+      </div>
+    </section>
+
+    <div class="header-wrapper">
+      <h1>DESSERTS</h1>
+    </div>
+    <section class="desserts card-wrapper">
+      <div class="card">
+        <img src="assets/images/Menu/Desserts/Hodu-gwaja.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Desserts/Hotteok.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Desserts/Ice Milk.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Desserts/Mango Bingsu.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Desserts/Mini Bundt Cake.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Desserts/Songpyeon.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Desserts/Tteok.jpg" alt="">
+      </div>
+      <div class="card">
+        <img src="assets/images/Menu/Desserts/Yaksik.jpg" alt="">
+      </div>
+    </section>
+  </section>
+
+  <div class="order-button-wrapper">
+    <input type="button" class="order-button" value="ORDER NOW">
+  </div>
+
+  <footer>
+    <div class="above-footer">
+      <div class="footer-followus">
+        <h2>FOLLOW US</h2>
+        <div class="footer-info">
+          <img src="assets/images/Facebook.png" alt="">
+          <p>DanBam</p>
+        </div>
+        <div class="footer-info">
+          <img src="assets/images/Instagram.png" alt="">
+          <p>danbamid</p>
+        </div>
+        <div class="footer-info">
+          <img src="assets/images/Youtube.png" alt="">
+          <p>DanBam Indonesia</p>
+        </div>
+      </div>
+
+      <div class="footer-contactus">
+        <h2>CONTACT US</h2>
+        <div class="footer-info">
+          <img src="assets/images/Email.png" alt="">
+          <p>danbamid@gmail.com</p>
+        </div>
+        <div class="footer-info">
+          <img src="assets/images/Phone.png" alt="">
+          <p>+62 123 456 789</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer-logo">
+      <img src="assets/images/Logo-Footer.png" alt="">
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>

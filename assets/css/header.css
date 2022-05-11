@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+}
+a,
+a:visited{
+  text-decoration: none;
+}
+.clickable{
+  cursor: pointer;
+}
+
+
+img{
+  display: block;
+}
+
+#minilogo{
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+#biglogo{
+  display: none;
+}
+.logo-wrapper{
+  width: 10rem;
+}
+
+.navbar-wrapper{
+  display: none;
+  position: absolute;
+  width: 7rem;
+  top: 100%;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: right;
+  border-radius: 0rem 0rem 1rem 1rem;
+  padding: 1rem;
+  line-height: 2rem;
+}
+
+
+.button p{
+  color: #33343f;
+  font-family: sourcesans-bold;
+  font-size: 1rem;
+}
+
+.aboutus-button > p{
+  display: none;
+}
+
+header{
+  width: 92%;
+  padding: 2% 4%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.logo-wrapper{
+  height: 100%;
+}
+.logo-wrapper img{
+  height: 100%;
+}
+.sandwich-wrapper{
+  height: 36%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.sandwich-wrapper img{
+  height: 100%;
+}
+
+.main-banner{
+  position: relative;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-banner > img{
+  width: 100%;
+}
+
+
+@media (min-width: 426px){
+  header{
+    height: 6rem;
+  }
+  .logo-wrapper{
+    width: 14rem;
+  }
+  .navbar-wrapper{
+    width: 12rem;
+    line-height: 3.2rem;
+  }
+  .button p{
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 969px){
+  #biglogo{
+    display: block;
+    width: 100%;
+    object-fit: contain;
+  }
+  #minilogo{
+    display: none;
+  }
+  .main-banner{
+    position: relative;
+  }
+  header{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    padding: 1% 2%;
+    height: 7rem;
+  }
+
+  .aboutus-button > p{
+    display: block;
+  }
+
+  .sandwich-wrapper{
+    display: none;
+  }
+  .navbar-wrapper{
+    display: block;
+    position: relative;
+    top: 0;
+    padding: 0;
+    width: auto;
+    display: flex;
+    background-color: transparent;
+  }
+  .button{
+    margin: 0 1rem;
+    position: relative;
+  }
+  .button p{
+    color: white;
+    font-size: 1.45rem;
+  }
+
+  .aboutus-DDL{
+    display: none;
+    text-align: center;
+  }
+
+  .aboutus-DDL p{
+    font-size: 1.5rem;
+  }
+  
+  .aboutus-DDL > div:hover{
+    background-color: white;
+  }
+  
+  .aboutus-DDL > div:hover p{
+    color: #3d3d3d;
+  }
+  .button:hover > .aboutus-DDL{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    background-color: #3d3d3d;
+    top: 100%;
+    width: 12rem;  
+    left:50%;
+    transform: translateX(-50%);
+
+  }
+}
+
+

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DanBam Menu</title>
+  <link rel="stylesheet" href="assets/css/fontsource.css">
+  <link rel="stylesheet" href="assets/css/contactus.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+
+  <script src="assets/js/jquery.js"></script>
+
+  <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+  <section class="main-banner">
+    <header>
+      <div class="logo-wrapper">
+        <a href="Home.html">
+          <img src="assets/images/Logo-Footer.png" id="minilogo" alt="">
+          <img src="assets/images/Logo-Header.png" id="biglogo" alt="">
+        </a>
+      </div>
+      <div class="sandwich-wrapper">
+        <img src="assets/images/Menu_White.svg" alt="">
+      </div>
+      <div class="navbar-wrapper">
+
+        <div class="menu-button button clickable" onclick="directMenu()">
+          <p>MENU</p>
+        </div>
+
+
+        <div class="aboutus-button button clickable">
+          <p>ABOUT US</p>
+          <div class="aboutus-DDL">
+            <div class="clickable" onclick="directOurHistory()">
+              <p>OUR HISTORY</p>
+            </div>
+            <div class="clickable" onclick="directGallery()">
+              <p>GALLERY</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-button button clickable" onclick="directLocation()">
+          <p>LOCATION</p>
+        </div>
+
+        <div class="contactus-button button clickable" onclick="directContactUs()">
+          <p>CONTACT</p>
+        </div>
+
+      </div>
+    </header>
+    </header>
+    <img class="banner1" src="assets/images/Banner-contactus.png" alt="">
+  </section>
+
+
+  <section class="Business">
+    <img class="bannerext" src="assets/images/DanBamExt-normal.jpg" alt="">
+    <div class="card">
+      <div class="card-header">
+        <img src="assets/images/Logo-Header.png" alt="">
+      </div>
+      <div class="card-content">
+        <div class="top">
+          <h2>Alam Sutera Tangerang City</h2>
+          <h2>kav 21, Banten 15143</h2>
+        </div>
+
+        <div class="mid1">
+          <p><b>Phone:</b> +62-82150215764</p>
+          <p><b>Email:</b> cs@danbamresto</p>
+        </div>
+
+        <div class="mid2">
+          <h3>BUSINESS HOUR</h3>
+          <h4>Monday - Saturday</h4>
+        </div>
+
+        <div class="bottom">
+          <h5><b>Lunch: </b></h5>
+          <h4>11.00 - 14.00</h4>
+        </div>
+
+        <div class="bottom">
+          <h5><b>Dinner: </b></h5>
+          <h4>17.00 - 21.00</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="form-wrapper">
+    <form name="contact">
+      <h1 class="bs-title">Send us a message!</h1>
+      <p class="name-error errmsg" id="name-error">Name Must Be Filled!</p>
+      <input type="text" placeholder=" Full Name" name="name">
+
+      <p class="email-error1 errmsg" id="email-error1">Email Must Be Filled!</p>
+      <p class="email-error2 errmsg" id="email-error2">Email Must Be A Valid One!</p>
+      <input type="text" placeholder=" Email Address" name="email">
+
+      <p class="gender-error errmsg" id="gender-error">Gender Must Be Filled!</p>
+      <select name="gender" id="gender">
+        <option value="">Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+
+      <p class="location-error errmsg" id="location-error">Location Must Be Filled!</p>
+      <select name="location" id="location">
+        <option value="">DanBam's Branch Location</option>
+        <option value="BinusAlamSutera">Binus Alam Sutera</option>
+        <option value="RumahProklamasi">Rumah Proklamasi</option>
+        <option value="KotaKinabalu">Kota Kinabalu</option>
+        <option value="Manado">Manado</option>
+      </select>
+
+      <p class="visited-error errmsg" id="visited-error"> Attendance Must Be Filled!</p>
+      <select name="visited" id="visited">
+        <option value="">Have visited DanBam before?</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <p class="message-error errmsg" id="message-error">Message Must Be Filled!</p>
+      <textarea name="message" id="" placeholder=" Message to Send"></textarea>
+
+      <div class="checkpart">
+        <input type="checkbox" name="newsletter" id="newsletter" class="check" value="">
+        <label for="newsletter">I accept to receive DanBam's latest information and weekly promotion</label>
+      </div>
+
+      <input type="button" class="Validate" value="Submit" onclick="validate()">
+
+    </form>
+  </section>
+
+
+
+  <footer>
+    <div class="footer-followus">
+      <h2>Follow Us</h2>
+      <div class="footer-info">
+        <img src="assets/images/Facebook.png" alt="">
+        <p>DanBam</p>
+      </div>
+      <div class="footer-info">
+        <img src="assets/images/Instagram.png" alt="">
+        <p>danbamid</p>
+      </div>
+      <div class="footer-info">
+        <img src="assets/images/Youtube.png" alt="">
+        <p>DanBam Indonesia</p>
+      </div>
+    </div>
+
+    <div class="footer-contactus">
+      <h2>Contact Us</h2>
+      <div class="footer-info">
+        <img src="assets/images/Email.png" alt="">
+        <p>danbamid@gmail.com</p>
+      </div>
+      <div class="footer-info">
+        <img src="assets/images/Phone.png" alt="">
+        <p>+62 123 456 789</p>
+      </div>
+    </div>
+
+    <div class="footer-logo">
+      <img src="assets/images/Logo-Footer.png" alt="">
+    </div>
+
+  </footer>
+
+
+</body>
+
+
+</html>

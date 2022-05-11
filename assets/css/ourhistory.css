@@ -1,0 +1,95 @@
+body {
+  background-color: #331D15;
+}
+footer{
+  background-color: #25150f;
+}
+
+b{
+  color: #FBF30F;
+}
+
+.content{
+  width: 100%;
+
+}
+.content-image{
+  width: 100%;
+}
+.content-image img{
+  width: 100%;
+}
+.txtbox{
+  padding: 0 1rem;
+}
+.txtbox h1{
+  font-family: sourcesans-bolditalic;
+  font-size: 1.5rem;
+  color: white;
+  margin: 1rem 0;
+}
+.txtbox p{
+  font-family: crimsontext;
+  font-size: 1rem;
+  color: white;
+  margin: 1rem 0;
+}
+
+@media (min-width: 426px){
+  .txtbox h1{
+    font-size: 2.4rem;
+  }
+  .txtbox p{
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 969px){
+  .content{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .content-image{
+    width: 60%;
+  }
+  .txtbox h1{
+    font-size: 2rem;
+  }
+  .txtbox p{
+    font-size: 1.2rem;
+  }
+  .txtbox{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .content2 .txtbox,
+  .content4 .txtbox,
+  .content6 .txtbox,
+  .content8 .txtbox{
+    order: 0;
+  }
+  .content2 .content-image,
+  .content4 .content-image,
+  .content6 .content-image,
+  .content8 .content-image{
+    order: 1;
+  }
+}
+
+@media (min-width: 1200px){
+  .txtbox h1{
+    font-size: 2.2rem;
+  }
+  .txtbox p{
+    font-size: 1.5rem;
+  }
+}
+
+/* Footer Customisation */
+footer{
+  margin-top: 10%;
+}
